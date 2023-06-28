@@ -8,3 +8,4 @@
 | Server Side Injection | [RCE](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SSI-RCE.md) |  |
 | Server Side Injection | [SQL Injection](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SSI-SQLI.md) |  |
 | Server Side Injection | [XXE](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SSI-XXE.md)| |
+| Broken Auth And Session Management | [Authentication Bypass](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/Auth-Bypass.md) | |
