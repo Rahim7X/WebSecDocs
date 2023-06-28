@@ -163,9 +163,11 @@ print(token)
 - Now The generated token assigned user
 
 ### Commo JWT Attcks
-- None ALgo
-- Algo Confusion
-- 
+- None Algorithm (Using Burp JWT Editor) Also Try removing signatur if it fails
+- Weak Secret (Crack jwt secret using hydra)
+- [Key Confusion] (https://portswigger.net/web-security/jwt/algorithm-confusion)
+- [Kid Parameter Injection] (https://book.hacktricks.xyz/pentesting-web/hacking-jwt-json-web-tokens#kid-issues)
+- [JKU Parameter Injection] (https://book.hacktricks.xyz/pentesting-web/hacking-jwt-json-web-tokens#x5u-and-jku)
 
 ### Login Form
 - Rate Limit
@@ -204,6 +206,5 @@ print(token)
 https://book.hacktricks.xyz/pentesting-web/login-bypass
 https://book.hacktricks.xyz/pentesting-web/login-bypass/sql-login-bypass
 https://medium.com/@surendirans7777/2fa-bypass-techniques-32ec135fb7fe
-
 ```
 
