@@ -24,4 +24,4 @@ cat check-them.txt | httpx -ss -srd screenshots
 # Now Found Some Login Pages WHat Next
 - Intruder + Wordlist
 - Now or unknown software ? Check Documentation
-###  [Default Credential Wordlist]()
+###  [Default Credential Wordlist](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Default-Credentials)
