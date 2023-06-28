@@ -100,7 +100,7 @@ if __name__ == '__main__':
 [x] Any external link is leaking the token ? eg : image loading , script loading
 ```
 - CSRF
-  ```bash
+```bash
 [x] Is there any account squatting issue using O-auth
 [X] Can i use my incomplete o auth flow to trigger victim into Linking his account
 ```
