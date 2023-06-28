@@ -98,6 +98,20 @@ if __name__ == '__main__':
 [X] Is There Any Xss Flaws
 [X] If There is any flaw can that endpoing be used to steal token
 [x] Any external link is leaking the token ? eg : image loading , script loading
+
+[*] Open redirects: https://yourtweetreader.com/callback?redirectUrl=https://evil.com
+[*] Path traversal: https://yourtweetreader.com/callback/../redirect?url=https://evil.com
+[*] Weak redirect_uri regexes: https://yourtweetreader.com.evil.com
+[*] HTML Injection and stealing tokens via referer header: https://yourtweetreader.com/callback/home/attackerimg.jpg
+
+ALSO DON"T FORGET TO CHECK IN REDIRECT PARAMETER Intruder List
+client_uri
+policy_uri
+tos_uri
+initiate_login_uri
+
+XSS IN REDIRECT URL
+https://app.victim.com/login?redirectUrl=https://app.victim.com/dashboard</script><h1>test</h1>
 ```
 - CSRF
 ```bash
@@ -109,7 +123,7 @@ if __name__ == '__main__':
   [X] If i sign up using victim email and then he signs up using O-Auth can i access his account again
 ```
 - Reusability of an OAuth access token
-  ```bash
+```bash
   [X] Complete O- auth Flow  Then Using same access token after logging out
 ```
 - Is there anything controlleble from client side
