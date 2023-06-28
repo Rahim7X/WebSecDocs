@@ -92,22 +92,26 @@ if __name__ == '__main__':
 
 ### O-Auth Issues
 -Improper validation of redirect URI
+```bash
 [x] Is Subdomain Allowed
 [X] Is There Any Open Redirect Flaws
 [X] Is There Any Xss Flaws
 [X] If There is any flaw can that endpoing be used to steal token
 [x] Any external link is leaking the token ? eg : image loading , script loading
-
+```
 - CSRF
+  ```bash
 [x] Is there any account squatting issue using O-auth
 [X] Can i use my incomplete o auth flow to trigger victim into Linking his account
-
+```
 - Account Squatting
+```bash
   [X] If i sign up using victim email and then he signs up using O-Auth can i access his account again
-
+```
 - Reusability of an OAuth access token
+  ```bash
   [X] Complete O- auth Flow  Then Using same access token after logging out
-
+```
 - Is there anything controlleble from client side
 
 
