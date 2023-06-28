@@ -5,5 +5,5 @@
 |-----------------|-----------------|-----------------|
 | Server Security Misconfiguration | [Using Default Credentials](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SSM-Using-Default-Creds.md) | Depends |
 | Server Side Injection | [File Inclusion](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SSI-FIleInclusion.md) | Local |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| Server Side Injection | [RCE](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SSI-RCE.md) |  |
 
