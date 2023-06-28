@@ -128,6 +128,39 @@ https://app.victim.com/login?redirectUrl=https://app.victim.com/dashboard</scrip
 ```
 - Is there anything controlleble from client side
 
+# JWT Authentication Flow
+- User Sent Detials
+- Server Created JWT
+- Compares Two JWTS in every requets
+```bash
+import base64
+import hashlib
+import json
+
+# Create the header
+header = {"typ": "JWT", "alg": "HS256"}
+
+# Create the payload
+payload = {"sub": "1234567890", "name": "John Doe", "iat": 1634090400}
+
+# Create the signature
+signature = hashlib.sha256((header + json.dumps(payload)).encode()).hexdigest()
+
+# Encode the header, payload, and signature
+header_bytes = base64.b64encode(json.dumps(header).encode())
+payload_bytes = base64.b64encode(json.dumps(payload).encode())
+signature_bytes = base64.b64encode(signature.encode())
+
+# Combine the encoded header, payload, and signature
+token = header_bytes + b"." + payload_bytes + b"." + signature_bytes
+
+# Base64url encode the combined string
+token = base64url_encode(token)
+
+# Your JWT token is now ready!
+print(token)
+```
+- Now The generated token assigned user
 
 ### Commo JWT Attcks
 - None ALgo
