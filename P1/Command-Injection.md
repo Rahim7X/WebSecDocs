@@ -532,3 +532,9 @@ $(`whoami`)
 ```
 
 - [Resource1](https://portswigger.net/web-security/os-command-injection)
+
+
+  # HardCoded Secret
+  - After  Getting RCE if you find password in any configuration File
+  - Or in any file within webroot to get extra impact
+    
