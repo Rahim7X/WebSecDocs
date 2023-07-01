@@ -11,3 +11,4 @@
 | Broken Auth And Session Management | [Authentication Bypass](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/Auth-Bypass.md) | |
 | Sensitive Data Exposure |  [Disclosure of Secrets](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SDE-For-Publicly-Accessible-Asset.md) |  For Publicly Accessible Asset |
 | Insecure OS/Firmware | [Command Injection](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/Command-Injection.md) | |
+| Insecure OS/Firmware | [Hard Coded Secret](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/Command-Injection.md#hardcoded-secret) | Privileged User|
