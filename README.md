@@ -12,3 +12,4 @@
 | Sensitive Data Exposure |  [Disclosure of Secrets](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/SDE-For-Publicly-Accessible-Asset.md) |  For Publicly Accessible Asset |
 | Insecure OS/Firmware | [Command Injection](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/Command-Injection.md) | |
 | Insecure OS/Firmware | [Hard Coded Secret](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/Command-Injection.md#hardcoded-secret) | Privileged User|
+| Broken Cryptography | [Cryptographic Flaw](https://github.com/Rahim7X/WebSecDocs/blob/master/P1/Cryptographic-Flaw.md) |Incorrect Usage|
